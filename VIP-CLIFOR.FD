@@ -1,0 +1,13 @@
+       FD  VIP-CLIFOR
+           LABEL RECORD IS STANDARD.
+       01  REG-CLIFOR.
+           03 CLIFOR-CHAVE.
+              05 CLIFOR-CD-CLIFOR      PIC 9(07).
+           03 CLIFOR-NM-CLIFOR         PIC X(60).
+           03 CLIFOR-CPF-CNPJ          PIC 9(10).
+           03 CLIFOR-ENDERECO          PIC X(20).
+           03 CLIFOR-BAIRRO            PIC X(20).
+           03 CLIFOR-CIDADE            PIC X(20).
+           03 CLIFOR-ESTADO            PIC X(20).
+           03 CLIFOR-CEP               PIC 9(09).
+           03 CLIFOR-FILLER            PIC X(500).

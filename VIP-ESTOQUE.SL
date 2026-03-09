@@ -1,0 +1,7 @@
+           SELECT VIP-ESTOQUE
+              ASSIGN TO "VIP-ESTOQUE.DAT"
+              ORGANIZATION INDEXED
+              ACCESS MODE DYNAMIC
+              LOCK MODE AUTOMATIC
+              RECORD KEY ESTOQUE-CHAVE
+              FILE STATUS FS-VIP-ESTOQUE.

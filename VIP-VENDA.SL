@@ -1,0 +1,9 @@
+           SELECT VIP-VENDA
+              ASSIGN TO "VIP-VENDA.DAT"
+              ORGANIZATION INDEXED
+              ACCESS MODE DYNAMIC
+              LOCK MODE AUTOMATIC
+              RECORD KEY VENDA-CHAVE-1
+              ALTERNATE RECORD KEY VENDA-CHAVE-2
+              WITH DUPLICATES
+              FILE STATUS FS-VIP-VENDA.

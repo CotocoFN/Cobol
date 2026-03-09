@@ -1,0 +1,13 @@
+       FD  VIP-VENDA
+           LABEL RECORD IS STANDARD.
+       01  REG-VENDA.
+           03 VENDA-CHAVE-1.
+              05 VENDA-ID-VENDA        PIC 9(02).
+           03 VENDA-CHAVE-2.
+              05 VENDA-CD-ESTOQUE      PIC 9(04).
+           03 VENDA-CD-CLIFOR          PIC 9(07).
+           03 VENDA-NM-ESTOQUE         PIC X(60).
+           03 VENDA-QT-ESTOQUE         PIC 9(15)V9999.
+           03 VENDA-VALOR-TOT-ESTOQUE  PIC 9(15)V99.
+           03 VENDA-VALOR-UNI-ESTOQUE  PIC 9(15)V99.
+           03 VENDA-FILLER             PIC X(200).

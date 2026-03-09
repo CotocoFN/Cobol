@@ -1,0 +1,7 @@
+           SELECT VIP-COMPRA
+              ASSIGN TO "VIP-COMPRA.DAT"
+              ORGANIZATION INDEXED
+              ACCESS MODE DYNAMIC
+              LOCK MODE AUTOMATIC
+              RECORD KEY COMPRA-CHAVE
+              FILE STATUS FS-VIP-COMPRA.
